@@ -1,5 +1,5 @@
 ﻿namespace c_sharp_delegate
-{//dev
+{//lab ex. 4
     internal class Program
     {
         static void Main(string[] args)
