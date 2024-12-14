@@ -42,7 +42,7 @@
                     default:
                         throw new InvalidOperationException();
                 }
-                Console.WriteLine($"Result: {del(double.Parse(numbers[0]), double.Parse(numbers[1]))}");
+                Console.WriteLine($"Result: {del?.Invoke(double.Parse(numbers[0]), double.Parse(numbers[1]))}");
             }
             catch (Exception ex)
             {
